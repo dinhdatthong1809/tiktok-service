@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.*;
 @RequestMapping("/tiktok")
 public class TiktokController {
 
-    @GetMapping("/download")
+    @GetMapping("/videos/download")
     public ResponseEntity<Void> download() {
         return ResponseEntity.ok().build();
     }
